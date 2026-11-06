@@ -1,0 +1,49 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gws *)",
+      "Bash(bq query:*)",
+      "Bash(bq ls:*)",
+      "Bash(bq show:*)",
+      "Bash(gh *)",
+      "Bash(acli *)",
+      "Bash(ls:*)",
+      "Bash(find:*)",
+      "Bash(grep:*)",
+      "Bash(rg:*)",
+      "Bash(mkdir:*)",
+      "Bash(cat:*)",
+      "Bash(jq:*)",
+      "Bash(date:*)",
+      "Bash(git status:*)",
+      "Bash(git diff:*)",
+      "Bash(git log:*)",
+      "Read(~/.claude/**)",
+      "Edit(/**)"
+    ],
+    "ask": [
+      "Bash(gws *send*)",
+      "Bash(gws *upload*)",
+      "Bash(gws *delete*)",
+      "Bash(gws tasks *insert*)",
+      "Bash(gws gmail *send*)",
+      "Bash(gws chat *create*)",
+      "Bash(gws calendar *insert*)",
+      "Bash(gws calendar *update*)",
+      "Bash(gws calendar *patch*)",
+      "Bash(acli *create*)",
+      "Bash(acli *edit*)",
+      "Bash(acli *transition*)",
+      "Bash(acli *comment*)",
+      "Bash(gh pr create:*)",
+      "Bash(gh pr comment:*)",
+      "Bash(gh pr merge:*)",
+      "Bash(gh pr review:*)",
+      "Bash(gh issue create:*)",
+      "Bash(gh issue comment:*)",
+      "Bash(gh repo create:*)",
+      "Bash(gh repo edit:*)",
+      "Bash(gh api *)"
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+# Valores internos de la organización: se comparten aparte (ver organizacion.ejemplo.md)
+organizacion.md
+
+# Temporal de /revisar-pendientes (se borra al aplicar los cambios)
+REVISION-PENDIENTES.md
+
+# Permisos personales de Claude Code (los compartidos van en .claude/settings.json)
+.claude/settings.local.json
+
+# Restos de exports de gws y de macOS
+download.txt
+.DS_Store
+
+# Exports grandes de /datos (las queries .sql sí se versionan)
+3-recursos/queries/output/
